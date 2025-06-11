@@ -1,0 +1,20 @@
+@charset "utf-8";
+.table1 {
+	width: 100%;
+	font-size: 12px;
+	margin-top:6px;
+}
+.table1 tr th{
+	background-color:#333;
+	color:#FFF;
+	letter-spacing:2em;
+}
+.table1 tr{
+	text-indent:2em;
+	width:125%;
+	border: thick dotted #3F9;
+}
+.table tr td{width:25%;}
+	
+.content {
+}

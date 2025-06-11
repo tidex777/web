@@ -1,0 +1,251 @@
+.test{
+	width:980px;
+	height:180;
+	background-color: #FFF;	
+	margin: 0 auto;
+    position: relative;
+	z-index:0;
+	padding-bottom:900px;
+	
+	border:#909090 0px solid;background:#fff;color:#333;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);/*ie*/
+-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+	}
+.N_left{
+	width:650px;
+	//background-color: red;
+	position: absolute;
+	top:37px;
+	left: 0px;
+	z-index:1;
+	padding:20px;
+	padding-bottom:100px;
+	padding-top:0px;
+	}
+.N_right{
+	width: 260px;
+	//background-color: green;
+	position: absolute;
+	top:82px;
+	right:7px;
+	padding:10px;
+}
+.page{
+ width:700px;
+ margin:0px auto; 
+ text-align:left;
+ z-index:2;
+ }
+.N_left p{font-size:14px;
+text-indent: 2em;
+line-height:180%;
+ margin-top: 15px;
+ margin-bottom: 15px;}
+ 
+ 
+.N_left h {  
+    font-size:18px;  
+    font-weight:400;  
+    letter-spacing:-1px;  
+    margin:17px 0 14px 0;  
+    padding-bottom:14px;  
+}  
+ .N_left h5{
+	font-size:15px;
+	line-height:150%;
+	margin-top: 10px;
+	margin-bottom: 10px;}
+ 
+ 
+ 
+ .left caption
+ {
+	 font-size:12px;
+      margin-bottom: 15px;
+	  text-align:right;
+	 
+	 
+	 }
+
+.right {
+	float:right;
+	width:250px;
+	height:300px;
+	padding-left:15px;
+	display:inline;
+	//background-color: #EAEAEA;
+}
+.right p{font-size:12px;
+text-indent: 2em;
+line-height:180%;
+ margin-top: 15px;
+ margin-bottom: 15px;}
+ 
+ 
+.img {
+	background: #f8f8f8;
+	border-top:1px solid #ccc;
+	border-right:1px solid #666;
+	border-bottom:2px solid #999;
+	border-left:1px solid #ccc;
+	padding: 7px;
+	width:200px; 
+	height:200px
+	}
+/*内容模块 */
+#tab_content_1
+{
+
+	width:680px;
+    float:left; background:#C9F;
+	}
+/*菜单模块 */
+.tab{
+	border-bottom:1px solid #ccc; /* 菜单模块的底部边框，也就是内容模块的上边框 */
+	list-style:none;
+	padding:0;
+	nargin:0;		
+ }
+.tab li{
+	display:inline; /* 【重点】让li横向排列。*/
+	font-size:14px;
+	//line-height:130px;	
+	
+ }
+.tab li a{
+	padding:8px 12px; /* 因为没有固定高度，所以用填充来调整显示效果。 */
+	border:3px solid #ccc;  /* 菜单项的边框 */
+	border-bottom:none; /* 底部无边框 */
+	text-decoration:none;
+	color: #333;
+	background-color: #CCC;
+}
+/*鼠标经过时的样式 */
+.tab li a:hover{
+	background-color: #FFF;
+}
+/*选中时的样式 */
+.tab li.no a{ 
+background:#fff; 
+border-bottom:none; /*  隐藏菜单项的底部边框 */
+position:relative;  /* 【重点】菜单项里面的连接使用了相对定位 */
+top:1px;            /* 【重点】相对于外层顶部为1像素，正好是底部边框的像素。所以就遮住了ul的底部边框 */
+color:#000000; 
+font-weight:bold
+}
+
+#main {width:400px;}
+#left { float:left; width:200px;background:#C9F;}
+
+#right { margin-left:200px; 
+//background:#CCCC66; 
+height:240px;}
+
+#clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
+
+#table_left 
+{
+border:1px solid #000; border-collapse:collapse;	}
+#table_left td
+{
+	border: 1px solid #424242;
+//设置td颜色
+; 	padding-left: 10px;  
+	}
+
+
+#table_left th
+{
+	text-align: center;
+	font-size:14px;
+	background-color:#CCC;
+	height:32px;
+	 border: 1px solid #424242;       //设置td颜
+
+	}
+	
+#table_left tr
+{	height:30px;	border: 1px solid #424242;       //设置td颜色}
+
+#table_left tr:hover
+{	height:30px;	background-color:#E9E9E9;       //设置td颜色}
+
+	
+#table_right
+{
+	text-align: center;
+	font-size:14px;
+	}
+#table_right th
+{
+	text-align: center;
+	font-size:14px;
+	background-color:#CCC;
+	height:30px;
+	
+	}
+#table_right td
+{
+	text-align: left;
+	font-size:12px;
+
+	//background-color: #FF3300;
+	}
+#wrap{
+	margin:0 auto;
+	width:980px;
+	//background-color: #00F;
+	
+	
+		background-color: #FFF;	
+	
+	border:#909090 0px solid;background:#fff;color:#333;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);/*ie*/
+-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+
+	
+	
+} 
+#garden_left
+{
+	width:240px;
+	float:left;
+	top:0px;
+	left:0px;
+	padding:10px;
+	//background-color: #FF0;
+	}
+#garden_right
+{
+	width:700px;
+	float:right;
+	top:120px;
+	left:390px;
+	padding:10px;
+	//background-color: #FF3300;
+	}
+#rightbox
+{
+	font-size: 14px;
+	line-height:22px;
+	height:3000px;
+	}
+#rightbox a:link{text-decoration:none;color: #000;	}
+#rightbox a:visited {text-decoration:none; color: #000;}
+#rightbox a:hover {text-decoration:underline; color: #000;}
+#rightbox a:active {text-decoration:underline; color: #000;}
+
+a:link{text-decoration:none;color: #000;	}
+a:visited {text-decoration:none; color: #000;}
+a:hover {text-decoration:underline; color: #000;}
+a:active {text-decoration:underline; color: #000;}
+	
+	
+	
+	
+	
+	

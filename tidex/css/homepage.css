@@ -1,0 +1,42 @@
+#handle{
+	margin-left:5px;
+	float:left;
+	width:990px;
+	height:295px;
+	}
+#shockshower{
+	margin-left:5px;
+	width:240px;
+	height:245px;
+	float:left;
+	margin-top:15px;
+		}
+#tiltshower{
+		width:240px;
+	height:245px;
+	float:left;
+	margin-top: 15px;
+	margin-left:10px;}
+#airtest{
+	width:240px;
+	height:245px;
+	float:left;
+	margin-top: 15px;
+	margin-left:10px;}
+#contact{
+	width:240px;
+	height:245px;
+	float:left;
+	margin-top: 15px;
+	margin-left:10px;}
+#home_title{
+	height:30px;
+	}
+#home_image{
+	height:100px;
+	background-color:#000;
+	}
+#home_content{
+	background-color:#FFF;
+}
+

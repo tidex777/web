@@ -1,0 +1,110 @@
+#h1 {
+	font-size: 16pt;
+	color: #000;
+} 
+#h2 {
+	font-size: 14px;
+	color: #000;
+} 
+#p1 {
+	margin:0.5em 0; padding:0 0 0 0em; text-indent:2em; color:#000; }
+
+#second_logo {
+	width:240px;
+	height:45px;	
+	border:1px solid #CCC;
+	margin-top: 2px;
+	margin-left: 5px;}
+	
+#second_content {
+	border:1px solid #CCC;
+	padding:15px;
+	margin-left:255px;
+	margin-top:-600px;
+	margin-bottom:18px;
+	height: auto;
+	width:560px;
+	font-size:13px;
+}
+
+#second_flag {
+	width:240px;
+	border:1px solid #CCC;
+	margin-top:5px;
+	margin-left:5px;
+	height:180px;}
+	
+#second_menu{
+	position:relative;
+	width:240px;
+	float:left;
+	border:1px solid #CCC;
+	margin-top: 5px;
+	margin-left:5px;
+	}
+		#second_menu ul{
+			list-style:none;
+			 line-height:28px;
+			 text-indent:20px;
+					}
+		#second_menu li{
+			height:28px;
+			display:block;
+			}
+		#second_menu li a{
+	list-style:none;
+	display:block;
+	background:#FFF;
+	color:#000;
+	font-size:14px;
+	text-decoration: none;
+	}
+					#second_menu li a:hover{
+						background:#000;
+						color:#fff;
+						text-decoration:none;
+						height:28px;
+						display:block;
+					}
+				#second_menu li .current{
+					list-style:none;
+					display:block;
+					height:28px;
+					background:#000;
+					color:#fff;
+					text-decoration: none;
+					
+				}
+				 #second_menu li a.current, #menu li a:hover.current{
+						background:#FFCD11;
+						color:#000;		
+						text-decoration: none;
+					}
+#block{
+	width:140px;
+	height:600px;
+	margin-top:-235px;
+	margin-left:855px;
+	background-image: url(../image/block.gif);
+	background-repeat: repeat-x;
+	}
+#table1 {
+	width: 100%;
+	font-size: 12px;
+	margin-top:6px;
+}
+.table1 tr th{
+	background-color:#333;
+	color:#FFF;
+	letter-spacing:2em;
+}
+.table1 tr{
+	text-indent:2em;
+	width:125%;
+	border: thick dotted #3F9;
+}
+.table tr td{width:25%;}
+	
+.content {
+}
+

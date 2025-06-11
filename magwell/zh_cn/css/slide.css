@@ -1,0 +1,37 @@
+#picBox{width:980px; height:400px; margin:0px auto; overflow:hidden; position:relative;
+	border:#909090 0px solid;background:#fff;color:#333;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);/*ie*/
+-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+}
+#picBox ul#show_pic{ margin:0; padding:0; list-style:none; height:400px; width:4900px; position:absolute;}
+#picBox ul#show_pic li{ float:left; margin:0; padding:0; height:400px;}
+#picBox ul#show_pic li img{ display:block;}
+#icon_num{
+	position:absolute;
+	bottom:60px;
+	right:20px;
+	font-size: 24px;
+}
+#icon_num li{ float:left; width:15px; height:15px; list-style:none; color:#003399; text-align:center;  cursor:pointer; padding:0; margin:0;margin-right:5px;}
+#icon_num li:hover,#icon_num li.active{
+	color:#FF3300;
+	font-size: 24px;
+}
+#picBox_top{
+	width:980px; height:400px; margin:50px auto; position:relative; overflow:hidden;}
+#picBox_top ul#show_pic_top{ 
+margin:0; padding:0; list-style:none; height:400px; width:980px; position:absolute;
+}
+#picBox_top ul#show_pic_top li{ 
+float:left; margin:0; padding:0; height:400px;}
+#picBox_top ul#show_pic_top li img{ 
+display:block;}
+
+
+#icon_num_top{ 
+position:absolute; bottom:0px; right:10px;}
+#icon_num_top li{ 
+float:left; background:url(http://pc.qq.com/pc/images/flashbutton.gif) no-repeat -15px 0;width:15px; height:15px; list-style:none; color:#39F; text-align:center;  cursor:pointer; padding:0; margin:0;margin-right:5px;}
+#icon_num_top li:hover,#icon_num_top li.active{ background:url(http://pc.qq.com/pc/images/flashbutton.gif) no-repeat 0 0; color:#fff;}

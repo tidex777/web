@@ -1,0 +1,128 @@
+#clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
+#cap {
+	background-image:url(../../zh_cn/img/1x37.png);
+	background-repeat: repeat-x;
+	width:100%;
+	height: 37px;
+	margin:0 auto;
+	padding:0;
+	border:0;
+	TEXT-ALIGN: center;
+	line-height:40px;
+}
+.cap_font {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color:#FFF;		
+}
+#Logo_content
+{
+	margin:0 auto;
+	padding:0;
+	width:980px;
+	height:70px;
+	background-color: #FFF;		
+}
+
+#foot_content
+{
+	margin:0 auto;
+	width:980px;
+	height:150px;
+	margin-top: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+#foot_photo
+{
+	margin:0 auto;
+	padding:10px;
+	width:125px;
+	height:88px;
+	//background-color: #FFF;
+	position:relative;
+	left:400px;
+	top:-40px;
+}
+body{
+	background-repeat: repeat-x;
+	background-color: #EEE;
+	//font-family:Verdana,黑体;
+	margin:0;
+	padding:0;
+}
+
+
+#content_content
+{
+	margin:0 auto;
+	margin-top: 10px;
+	padding:0;
+	width:980px;
+	height:320px;
+	background-color: #FFF;	
+	
+	border:#909090 0px solid;background:#fff;color:#333;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);/*ie*/
+-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+}
+
+
+#products { 
+width:980px; padding:0;
+margin:0px auto; 
+} 
+#products li { 
+width:326px; 
+height:154px; 
+float:left; 
+display:inline; 
+} 
+#products li a { 
+display:block; 
+} 
+
+#products a:hover{
+	border:0px;
+	text-decoration: none;
+	background-color: #CCC;
+}
+#second_menu
+{
+	margin:0 auto;
+	margin-top: 10px;
+	padding:0;
+	width:300px;
+	height:320px;
+	background-color: #FFF;		
+	border:#909090 0px solid;background:#fff;color:#333;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);/*ie*/
+-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+}
+#second_content
+{
+	margin:0 auto;
+	margin-top: 10px;
+	padding:0;
+	width:980px;
+	height:1200px;
+	background-color: #FFF;		
+	border:#909090 0px solid;background:#fff;color:#333;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);/*ie*/
+-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+
+}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; font-size:0; }
+.clearfix { *zoom:1;}
+.tab_change { margin:40px; color:#333; }
+.tab_change .tab_hd li { float:left; margin-right:14px; }
+.tab_change .tab_hd li a { display:inline-block; *position:relative; margin-bottom:-2px; line-height:24px; padding:0 20px; text-decoration:none; font-weight:bold; color:#333; border:2px solid #dcdcdc; background:#eee; }
+.tab_change .tab_hd li.current a,.tab_change .tab_hd li a:hover { padding-bottom:2px; border-bottom:none; background:#fff; }
+.tab_change .tab_bd { border:2px solid #dcdcdc; padding:10px; line-height:1.5; background:#fff; }

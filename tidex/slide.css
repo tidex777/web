@@ -1,0 +1,22 @@
+#focus_change {
+	position:absolute;
+	width:990px;
+	height:295px;
+	overflow:hidden;
+}
+ #focus_change_list {
+	position:absolute;
+	width:3960px;
+	height:295px;
+}
+  #focus_change_list li { float:left; }
+  #focus_change_list li img { width:990px; height:295px; }
+ .focus_change_opacity { position:absolute; width:990px; height:35px; top:260px; left:0; background:#000; filter:alpha(opacity=10); -moz-opacity:0.5; opacity: 0.5;z-index:1; }
+ #focus_change_btn { position:absolute; width:990px; height:35px; top:260px; left:20;z-index:20;}
+  #focus_change_btn ul { padding-left:5px; }
+  #focus_change_btn li { display:inline; float:left; margin:0 15px; padding-top:12px; }
+  #focus_change_btn li img { width:80px; height:5px; border:2px solid #888;}
+  #focus_change_btn .current { background:url(img/icon_arrow.gif) no-repeat 37px 8px;}
+  #focus_change_btn .current img {
+	border-color:#FFCD11;
+}

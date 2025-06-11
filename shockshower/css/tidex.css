@@ -1,0 +1,90 @@
+body {
+	margin:0 auto;
+	font-size:13px;
+	font-family:Verdana;
+	line-height:1.5;
+}
+
+
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p { padding:0; margin:0;}
+ul { list-style:none;}
+
+#header{
+	width:900px;
+	height:63px;
+	background-color: #FFF;
+}
+
+#logo{
+	float:left;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+#clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
+#content{
+	float:left;
+	height:auto;
+	width:900px;
+	text-align:center;
+	font-size:12px;
+	background-color:#FFF;
+	position:relative;
+	top:30px;
+	}
+	
+	#topflag{
+	float:left;
+	height:99px;
+	width:690px;
+	left:5px;
+	text-align:center;
+	font-size:12px;
+	position:relative;
+	z-index:3;
+	}	
+
+#flag{
+	float:right;
+	height:auto;
+	width:200px;
+	text-align:center;
+	font-size:12px;
+	top:100px;
+	border:none;
+		}	
+#photo{
+	float:right;
+	height:auto;
+	width:200px;
+	text-align:center;
+	font-size:12px;
+	top:100px;
+	border:none;
+	}		
+	
+	
+#text{
+	top:8px;
+	float:left;
+	height:auto;
+	width:670px;
+	position:relative;
+	left:15px;
+	overflow:inherit;
+	text-align:left;
+	font-size:13px;
+	font-family:Verdana;
+	line-height:1.5;
+	}
+
+#footer {
+	float:right;
+	height:40px;
+	width:500px;
+	text-align:right;
+	font-size:12px;
+	position:relative;
+	top:5px;
+}
